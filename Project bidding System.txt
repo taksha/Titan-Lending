@@ -1,0 +1,35 @@
+Schema:
+ - Contains users, posts, bids
+ 
+ Users
+  - id
+  - name
+  - address
+  - contact_number
+  - email
+  - User stamps
+  - Time Stamps
+  
+ Projects:
+  - id
+  - description
+  - price
+  - start_date
+  - end_date
+  - bid_id
+  - user_id
+  - User stamps
+  - Time Stamps
+  
+ Bids:
+  - id
+  - description
+  - value/price
+  - user_id
+  - start_date
+  - end_date
+  - User stamps
+  - Time Stamps
+  
+Write a query to fetch the last 5 (most recent) projects posted on the site
+  
