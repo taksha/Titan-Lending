@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-puts "I was passed: "
+puts "I have passed: "
 ARGV.each do |value|
   puts value
 end
